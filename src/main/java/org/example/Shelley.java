@@ -1,8 +1,8 @@
 package org.example;
 
-public class Ana extends Grandma {
-    public Ana() {
-        super("Ane");
+public class Shelley extends Grandma {
+    public Shelley() {
+        super("Shelly");
     }
 
     @Override
@@ -10,9 +10,11 @@ public class Ana extends Grandma {
         if (str.length() == 0){
             return false;
         }
-        if (str.charAt(0) == str.charAt(str.length() - 1)) {
+        if(str.substring(str.length() - 1).equals("y")) {
             return true;
         }
         return false;
     }
+
+
 }
