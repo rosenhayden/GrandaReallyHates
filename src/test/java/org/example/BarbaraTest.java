@@ -4,8 +4,8 @@ import junit.framework.TestCase;
 
 public class BarbaraTest extends TestCase {
 
-    public void testBarbaraLikesWord() {
-        Grandma B = new Barbara();
+    public void testAardvarkLikesWord() {
+        Grandma B = new Aardvark();
         assertTrue(B.likesWord("aardvark"));
         assertFalse(B.likesWord("joker"));
         assertFalse(B.likesWord(""));

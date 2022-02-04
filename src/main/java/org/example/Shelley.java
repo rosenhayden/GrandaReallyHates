@@ -10,10 +10,8 @@ public class Shelley extends Grandma {
         if (str.length() == 0){
             return false;
         }
-        if(str.substring(str.length() - 1).equals("y")) {
-            return true;
-        }
-        return false;
+
+        return str.endsWith("y");
     }
 
 
